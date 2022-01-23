@@ -12,6 +12,13 @@ Because the customer churn research using machine learning is not new, so this p
 ## Problem Statement
 The problem to be solved is to determine whether each offer is accepted by the customer in question. In the past a customer may have received several offers or receives only one offer. The task is to classify (compute probability) whether or not the offer results in a change to the order (acceptance of the offer) based on the characteristics of the customer's data set.<br/>
 
+## The Data
+Data is provided by Starbucks and consists in three json files extracted from the Starbucks app. Please note that the data has been anonimized and 
+reduced, since the whole unverse of offers sent to clients is composed by just 10 different choices. 
+
+## Problem Resolution
+We applied an XGBoost model for classifying the Starbucks customer's choices and the results show very accurate prediction.<br/>
+
 ## Instalation
 This project runs only on AWS Sagemaker. <br/>
 You will need an AWS account and open a Sagemaker Studio Session. <br/>
